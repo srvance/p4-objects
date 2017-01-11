@@ -1,0 +1,21 @@
+head     1.4;
+access   ;
+symbols  ;
+locks    ;comment  @@;
+
+
+1.4
+date     2008.04.10.18.32.07;  author p4;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+1.4
+log
+@@
+text
+@Some text for the new file@

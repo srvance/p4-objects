@@ -1,0 +1,33 @@
+P4::Objects Usage Examples
+==========================
+
+This directory contains high-quality, running examples of P4::Objects and
+P4::Server usage. The P4::Server usage primarily sets up an environment
+against which to use the P4::Objects examples.
+
+Setup and Installation
+======================
+
+No real setup or installation is required at this time. Simply run
+"run_example.pl" from the current directory adding -I options for the
+locations of P4::Objects and P4::Server, similar to:
+
+perl -I ../lib -I ~/p4server/lib run_example.pl
+
+The above assumes that you are running this from the "examples" directory of a
+standard CPAN distribution of P4::Objects, where ../lib is the home for
+P4::Objects.
+
+What It Does
+============
+
+run_example.pl
+--------------
+
+1.  Sets up the server: It takes the archive file in the current directory and
+    uses it to create a server with a dynamically allocated port and a server
+    root in the current directory. The server shuts down when the example
+    script finishes, but the directories are left behind afterwards for
+    inspection.
+
+2.  Runs the example code.

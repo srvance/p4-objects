@@ -1,0 +1,39 @@
+@pv@ 0 @db.counters@ @change@ 3 
+@pv@ 0 @db.counters@ @journal@ 3 
+@pv@ 0 @db.counters@ @upgrade@ 15 
+@ex@ 14467 1207717864
+@pv@ 3 @db.user@ @testuser@ @testuser@@testws@ @@ 1207287806 1207717858 @testuser@ @@ 0 @@ 0 
+@ex@ 14467 1207717864
+@pv@ 1 @db.depot@ @depot@ 0 @@ @depot/...@ 
+@ex@ 14467 1207717864
+@pv@ 4 @db.domain@ @anotherws@ 99 @Aikuchi.local@ @/where/I/keep/workspaces/anotherws@ @@ @@ @testuser@ 1207287899 1207287899 64 @Created by testuser.
+@ 
+@pv@ 4 @db.domain@ @depot@ 100 @@ @@ @@ @@ @@ 1207287152 1207287152 0 @Default depot@ 
+@pv@ 4 @db.domain@ @otherws@ 99 @Aikuchi.local@ @/where/I/keep/workspaces/otherws@ @@ @@ @testuser@ 1207287932 1207287852 64 @Created by testuser.
+@ 
+@pv@ 4 @db.domain@ @testws@ 99 @Aikuchi.local@ @/Users/steve/ws/mac_p4objects/examples/staging/ws@ @@ @@ @testuser@ 1207287833 1207717858 64 @Created by testuser.
+@ 
+@ex@ 14467 1207717864
+@pv@ 1 @db.view@ @anotherws@ 0 0 @//anotherws/...@ @//depot/...@ 
+@pv@ 1 @db.view@ @otherws@ 0 0 @//otherws/...@ @//depot/...@ 
+@pv@ 1 @db.view@ @testws@ 0 0 @//testws/...@ @//depot/...@ 
+@ex@ 14467 1207717864
+@pv@ 7 @db.rev@ @//depot/text.txt@ 1 0 0 3 1207630491 1207630456 42760E5D252FE16BDAFBAF5131F6195F 24 0 0 @//depot/text.txt@ @1.1@ 0 
+@ex@ 14467 1207717864
+@pv@ 0 @db.revcx@ 3 @//depot/text.txt@ 1 0 
+@ex@ 14467 1207717864
+@pv@ 7 @db.revhx@ @//depot/text.txt@ 1 0 0 3 1207630491 1207630456 42760E5D252FE16BDAFBAF5131F6195F 24 0 0 @//depot/text.txt@ @1.1@ 0 
+@ex@ 14467 1207717864
+@pv@ 0 @db.change@ 3 1 @testws@ @testuser@ 1207630491 1 @The first changelist
+@ 
+@pv@ 0 @db.change@ 2 2 @testws@ @testuser@ 1207630410 0 @The second changelist
+@ 
+@ex@ 14467 1207717864
+@pv@ 0 @db.changex@ 2 2 @testws@ @testuser@ 1207630410 0 @The second changelist
+@ 
+@ex@ 14467 1207717864
+@pv@ 0 @db.desc@ 2 @The second changelist
+@ 
+@pv@ 0 @db.desc@ 1 @The first changelist
+@ 
+@ex@ 14467 1207717864

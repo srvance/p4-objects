@@ -1,0 +1,9 @@
+cover_db/
+.p4ignore
+.project
+*.old
+.includepath
+.p4config
+.settings/
+_build/
+.externalToolBuilders/

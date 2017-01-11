@@ -1,0 +1,102 @@
+NAME
+    P4::Objects - an OO wrapper around Perforce's P4API
+
+DESCRIPTION
+
+    P4::Objects is a domain-driven object-oriented wrapper around Perforce's
+    P4Perl API. "Domain-driven" means that this API models the entities in
+    the Perforce systems as full-fledged objects. The P4Perl API does not
+    do this, simply using an object to encapsulate the communication API
+    to the Perforce server. However, the P4Perl API handles several things
+    such as marshalling of output into hashes and arrays and good error
+    categorization. We leverage these benefits in this API.
+
+    The domain objects modeled in P4::Objects include:
+
+        P4::Session
+        P4::Connection
+        P4::Repository
+        P4::Workspace
+        P4::User
+
+    and so forth.
+
+    See Changes for the change log.
+
+PREREQUISITES
+
+    Class::Std
+    Class::Throwable
+    Devel::Cover
+    Log::Log4perl
+    P4
+    Test::Util
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+CONTRIBUTING
+
+Contributions (source code, not money or beer) are encouraged, but they are
+expected to be of a quality and completeness consistent with the existing
+work. Here is a quick punch list of what this means:
+
+o Code should be of the same coding style. It's pretty much Perl Best
+  Practices (PBP)-compliant. It's fine if you don't like it. It's not all my
+  preferred coding style, either, but it's a well-reasoned and consistent
+  format.
+o POD must be written for each method. It won't pass tests without this.
+o POD must be complete. The current style is mostly consistent and generally
+  complete. You should always document purpose, return, parameters, and
+  exceptions to a level that you would like to see everyone else write. Or at
+  least to the level that I would like to see everyone else write.
+o There must be at least one test for every method. Set/get pairs can share a
+  test. Usually there should be more than one, as you should also test failure
+  and data conditions. If this means you refactor for testability, so be it.
+o Tests must all pass. New test, old tests, doesn't matter. I'll run 'make
+  test' and if it doesn't pass, I'll toss it back to you.
+o Tests must provide 100% statement, branch, and condition coverage. You can
+  check this by running 'make testcover'. This can be difficult. If you've
+  done everything else, I'll be glad to advise you on how to do this. I won't
+  do it for you. Also, that level of coverage still doesn't guarantee
+  correctness, so you may need more tests beyond that.
+o If you're fixing a bug, you should add a test or augment an existing test to
+  invoke the defect condition. And if it's not obvious, use comments to
+  explain the test or test condition.
+
+That's enough for now.
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the perldoc command.
+
+    perldoc P4::Objects
+
+You can also look for information at:
+
+    Search CPAN
+        http://search.cpan.org/dist/P4-Objects
+
+    CPAN Request Tracker:
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=P4-Objects
+
+    AnnoCPAN, annotated CPAN documentation:
+        http://annocpan.org/dist/P4-Objects
+
+    CPAN Ratings:
+        http://cpanratings.perl.org/d/P4-Objects
+
+COPYRIGHT AND LICENCE
+
+    Copyright (C) 2007 Stephen Vance, <steve@vance.com>
+
+    Written on behalf of The MathWorks, Inc.
+
+This program is released under the following license: Artistic

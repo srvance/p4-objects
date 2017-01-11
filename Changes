@@ -1,0 +1,11 @@
+Revision history for P4-Objects
+
+0.01    22-Jun-2007
+        User story 1 (Set environment variables) finalized
+0.02    11-Jul-2007
+        User story 2 (Get server attributes) finalized
+0.03    13-Jul-2007
+        User story 3 (Get clients list) finalized
+0.04    27-Jul-2007
+        User story 4 (Get client object. Query and set attribute and commit)
+        finalized

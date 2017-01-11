@@ -1,0 +1,58 @@
+@pv@ 0 @db.counters@ @upgrade@ 1 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 2 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 3 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 4 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 5 
+@pv@ 1 @db.depot@ @depot@ 0 @@ @depot/...@ 
+@pv@ 4 @db.domain@ @depot@ 100 @@ @@ @@ @@ @@ 1207287152 1207287152 0 @Default depot@ 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 6 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 7 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 8 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 9 
+@rv@ 0 @db.counters@ @upgrade@ 10 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 11 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 12 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 13 
+@ex@ 30504 1207287152
+@rv@ 0 @db.counters@ @upgrade@ 14 
+@rv@ 0 @db.counters@ @upgrade@ 15 
+@ex@ 30504 1207287152
+@pv@ 3 @db.user@ @svance@ @svance@@svance.mac_p4objects@ @@ 1207287184 1207287184 @svance@ @@ 0 @@ 0 
+@ex@ 30519 1207287184
+@pv@ 3 @db.user@ @testuser@ @testuser@@testws@ @@ 1207287806 1207287806 @testuser@ @@ 0 @@ 0 
+@ex@ 31176 1207287806
+@pv@ 1 @db.view@ @testws@ 0 0 @//testws/...@ @//depot/...@ 
+@ex@ 31176 1207287833
+@pv@ 4 @db.domain@ @testws@ 99 @Aikuchi.local@ @/Users/steve/ws/mac_p4objects/examples/staging/ws@ @@ @@ @testuser@ 1207287833 1207287833 64 @Created by testuser.
+@ 
+@ex@ 31176 1207287833
+@pv@ 1 @db.view@ @otherws@ 0 0 @//otherws/...@ @//depot/...@ 
+@ex@ 31187 1207287852
+@pv@ 4 @db.domain@ @otherws@ 99 @Aikuchi.local@ @/Users/steve/ws/mac_p4objects/examples/staging/otherws@ @@ @@ @testuser@ 1207287852 1207287852 64 @Created by testuser.
+@ 
+@ex@ 31187 1207287852
+@pv@ 1 @db.view@ @anotherws@ 0 0 @//anotherws/...@ @//depot/...@ 
+@ex@ 31190 1207287899
+@pv@ 4 @db.domain@ @anotherws@ 99 @Aikuchi.local@ @/where/I/keep/workspaces/anotherws@ @@ @@ @testuser@ 1207287899 1207287899 64 @Created by testuser.
+@ 
+@ex@ 31190 1207287899
+@rv@ 4 @db.domain@ @otherws@ 99 @Aikuchi.local@ @/where/I/keep/workspaces/otherws@ @@ @@ @testuser@ 1207287932 1207287852 64 @Created by testuser.
+@ 
+@ex@ 31201 1207287932
+@rv@ 3 @db.user@ @testuser@ @testuser@@testws@ @@ 1207287806 1207288228 @testuser@ @@ 0 @@ 0 
+@ex@ 31246 1207288228
+@dv@ 3 @db.user@ @svance@ @svance@@svance.mac_p4objects@ @@ 1207287184 1207287184 @svance@ @@ 0 @@ 0 
+@ex@ 31246 1207288228
+@pv@ 0 @db.counters@ @journal@ 1 
+@ex@ 31265 1207288328

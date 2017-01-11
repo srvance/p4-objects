@@ -1,0 +1,98 @@
+---
+name: P4-Objects
+version: 0.52
+author:
+  - 'Stephen Vance <steve@vance.com>'
+abstract: OO wrapper for Perforce's P4Perl module
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Date::Parse: 0
+  Error: 0
+  Error::Exception: 0
+  Exception::Class: 0
+  Log::Log4perl: 0
+  P4: 0
+build_requires:
+  Module::Locate: 0
+  P4::Server: 0.07
+  Test::More: 0
+  Test::Unit: 0
+provides:
+  P4::Objects:
+    file: lib/P4/Objects.pm
+    version: 0.51
+  P4::Objects::BasicConnection:
+    file: lib/P4/Objects/BasicConnection.pm
+    version: 0.50
+  P4::Objects::Changelist:
+    file: lib/P4/Objects/Changelist.pm
+    version: 0.50
+  P4::Objects::ChangelistRevision:
+    file: lib/P4/Objects/ChangelistRevision.pm
+    version: 0.46
+  P4::Objects::Common::AccessUpdateForm:
+    file: lib/P4/Objects/Common/AccessUpdateForm.pm
+    version: 0.35
+  P4::Objects::Common::Base:
+    file: lib/P4/Objects/Common/Base.pm
+    version: 0.43
+  P4::Objects::Common::BinaryOptions:
+    file: lib/P4/Objects/Common/BinaryOptions.pm
+    version: 0.48
+  P4::Objects::Common::Form:
+    file: lib/P4/Objects/Common/Form.pm
+    version: 0.35
+  P4::Objects::Connection:
+    file: lib/P4/Objects/Connection.pm
+    version: 0.47
+  P4::Objects::Exception:
+    file: lib/P4/Objects/Exception.pm
+    version: 0.33
+  P4::Objects::FstatResult:
+    file: lib/P4/Objects/FstatResult.pm
+    version: 0.49
+  P4::Objects::IntegrationRecord:
+    file: lib/P4/Objects/IntegrationRecord.pm
+    version: 0.43
+  P4::Objects::Label:
+    file: lib/P4/Objects/Label.pm
+    version: 0.48
+  P4::Objects::OpenRevision:
+    file: lib/P4/Objects/OpenRevision.pm
+    version: 0.46
+  P4::Objects::PendingChangelist:
+    file: lib/P4/Objects/PendingChangelist.pm
+    version: 0.50
+  P4::Objects::PendingResolve:
+    file: lib/P4/Objects/PendingResolve.pm
+    version: 0.43
+  P4::Objects::RawConnection:
+    file: lib/P4/Objects/RawConnection.pm
+    version: 0.43
+  P4::Objects::Repository:
+    file: lib/P4/Objects/Repository.pm
+    version: 0.47
+  P4::Objects::Revision:
+    file: lib/P4/Objects/Revision.pm
+    version: 0.49
+  P4::Objects::Session:
+    file: lib/P4/Objects/Session.pm
+    version: 0.43
+  P4::Objects::SubmittedChangelist:
+    file: lib/P4/Objects/SubmittedChangelist.pm
+    version: 0.50
+  P4::Objects::SyncResults:
+    file: lib/P4/Objects/SyncResults.pm
+    version: 0.43
+  P4::Objects::Workspace:
+    file: lib/P4/Objects/Workspace.pm
+    version: 0.48
+  P4::Objects::WorkspaceRevision:
+    file: lib/P4/Objects/WorkspaceRevision.pm
+    version: 0.24
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
